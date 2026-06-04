@@ -1,0 +1,15 @@
+.section-1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2f4f8f 0%, #1c3f7a 50%, #0a2f6b 100%);
+  color: white;
+}
+
+.section-1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
