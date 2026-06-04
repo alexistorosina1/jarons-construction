@@ -53,6 +53,11 @@
   height: 400px;
 }
 
+.section-2-container h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
 .card-wrapper {
   display: flex;
   flex-direction: row;
@@ -84,4 +89,37 @@
   margin: 10px 0 0;
   text-align: center;
   color: #475569;
+}
+
+.section-3-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eef4fb;
+  height: 300px;
+}
+
+.section-3-container h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.section-3-container p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #475569;
+}
+
+.section-3-container button {
+  margin: 20px auto 0;
+  font-size: 1rem;
+  color: white;
+  background-color: #0a2f6b;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 55px;
+  width: 180px;
 }
