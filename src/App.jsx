@@ -1,9 +1,11 @@
 import Homepage from "./components/Homepage.jsx";
+import Navbar from "./components/Navbar.jsx";
 
 function App() {
   return (
     <>
-      <Homepage />
+      <Navbar />
+      <Homepage path="/home" />
     </>
   );
 }

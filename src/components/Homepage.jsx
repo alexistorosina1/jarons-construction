@@ -1,5 +1,6 @@
 import "./Homepage.css";
 import HomepageData from "../data/homepage-data.js";
+import Navbar from "./Navbar.jsx";
 
 export default function Homepage() {
   return (

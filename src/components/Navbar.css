@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #061a39;
+  color: white;
+  height: 40px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-right: 5%;
+}
+
+.navbar ul li:hover {
+  color: #eab308;
+  cursor: pointer;
+}
