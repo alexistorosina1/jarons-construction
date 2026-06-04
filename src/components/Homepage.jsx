@@ -1,8 +1,8 @@
 export default function Homepage() {
   return (
     <>
-      <section>
-        <div>
+      <section className="section-1-container">
+        <div className="section-1-wrapper">
           <h1>Building Dreams Into Reality</h1>
           <h2>
             With over 15 years of experience, JARONS Construction delivers
