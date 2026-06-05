@@ -4,7 +4,7 @@ export default function About() {
     <>
       <div className="about-container">
         <h1>About JARONS Construction</h1>
-        <section>
+        <section className="our-story">
           <h2>Our Story</h2>
           <p>
             The journey of JARONS Construction began two decades ago when our
@@ -12,6 +12,7 @@ export default function About() {
             dream. After spending ten years mastering the trade and working
             hands-on in the construction industry, he founded this company to
             bring his own vision of excellence to life.
+            <br />
             <br />
             What started a decade ago as a small, family-owned operation has
             grown into a trusted name in construction. Today, we maintain that
