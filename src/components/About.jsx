@@ -21,8 +21,8 @@ export default function About() {
           </p>
         </section>
 
-        <section>
-          <div>
+        <section className="mission-values">
+          <div className="our-mission">
             <h3>Our Mission</h3>
             <p>
               To deliver exceptional construction services that exceed our
@@ -30,9 +30,7 @@ export default function About() {
               communication, and unwavering integrity.
             </p>
           </div>
-        </section>
 
-        <section>
           <div>
             <h3>Our Values</h3>
             <ul>
