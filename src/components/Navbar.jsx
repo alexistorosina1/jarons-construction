@@ -7,14 +7,7 @@ export default function Navbar() {
         <h1>JARONS</h1>
         <ul>
           <li>
-            <NavLink
-              to="/"
-              style={({ isActive }) => ({
-                color: isActive ? "#eab308" : "white",
-              })}
-            >
-              Home
-            </NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
             <NavLink to="/services">Services</NavLink>
