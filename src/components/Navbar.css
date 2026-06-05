@@ -19,7 +19,11 @@
   margin-right: 5%;
 }
 
-.navbar ul li:hover {
+.navbar a.active {
+  color: #facc15;
+}
+
+.navbar ul li a:hover {
   color: #eab308;
   cursor: pointer;
 }
