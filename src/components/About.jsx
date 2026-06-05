@@ -1,7 +1,8 @@
+import "./About.css";
 export default function About() {
   return (
     <>
-      <div>
+      <div className="about-container">
         <h1>About JARONS Construction</h1>
         <section>
           <h2>Our Story</h2>
