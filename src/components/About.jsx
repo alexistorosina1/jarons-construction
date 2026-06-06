@@ -31,7 +31,7 @@ export default function About() {
             </p>
           </div>
 
-          <div>
+          <div className="our-values">
             <h3>Our Values</h3>
             <ul>
               <li>Quality over quantity</li>
@@ -43,18 +43,18 @@ export default function About() {
           </div>
         </section>
 
-        <section>
+        <section className="stats-section">
           <h3>By The Numbers</h3>
-          <div>
-            <div>
+          <div className="stats-container">
+            <div className="experience-stat">
               <h2>15+</h2>
               <p>Years of Experience</p>
             </div>
-            <div>
+            <div className="projects-stat">
               <h2>500+</h2>
               <p>Projects Completed</p>
             </div>
-            <div>
+            <div className="satisfaction-stat">
               <h2>98%</h2>
               <p>Client Satisfaction</p>
             </div>

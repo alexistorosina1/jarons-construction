@@ -4,6 +4,7 @@
   align-items: center;
   padding: 50px;
   background-color: #eef4fb;
+  gap: 50px;
 }
 
 .our-story {
@@ -16,14 +17,96 @@
   padding: 0 3%;
   border-radius: 14px;
 }
+
 .our-story h2 {
   font-size: 1.8rem;
-  font-weight: 500;
   margin: 20px 0;
   text-align: start;
+  font-weight: 500;
 }
 .our-story p {
   font-size: 1rem;
   color: #475569;
   text-align: start;
+}
+
+.mission-values {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: 300px;
+  gap: 20px;
+  padding: 0 3%;
+}
+
+.our-mission {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 14px;
+  padding: 0 3%;
+}
+
+.our-mission h3 {
+  font-weight: 500;
+}
+
+.our-mission p {
+  font-size: 1rem;
+  margin: 20px 0;
+  text-align: start;
+  color: #475569;
+}
+
+.our-values {
+  background-color: #fff;
+  width: 400px;
+  border-radius: 14px;
+  padding: 0 3%;
+}
+.our-values h3 {
+  font-weight: 500;
+}
+
+.our-values ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.our-values li {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between check + text */
+  margin-bottom: 14px;
+  font-size: 1rem;
+  color: #475569;
+}
+
+.our-values li::before {
+  content: "✓";
+  font-size: 1rem;
+  color: #475569;
+}
+
+.stats-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1c3f7a;
+  color: #fff;
+  width: 800px;
+  padding: 0 3%;
+  border-radius: 14px;
+}
+
+.stats-section h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
